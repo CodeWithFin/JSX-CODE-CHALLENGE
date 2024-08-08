@@ -11,7 +11,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-ReactDom.render(
+ReactDOM.render(
     <div>
       <h1>My Favorite Shows</h1>
       <ul>
