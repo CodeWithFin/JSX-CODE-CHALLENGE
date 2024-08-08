@@ -8,3 +8,17 @@
 // to install the node modules and
 // npm run dev
 // to launch your react project in your browser
+import React from "react";
+import ReactDOM from "react-dom";
+
+ReactDom.render(
+    <div>
+      <h1>My Favorite Shows</h1>
+      <ul>
+        <li>The House of the Dragons</li>
+        <li>You</li>
+        <li>Game Of Thrones</li>
+      </ul>
+    </div>,
+    document.getElementById("root")
+  );
